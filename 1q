@@ -41,4 +41,9 @@ int b1[w], b2[w];
                     a[i]=a[i]/2;
                 }
                 else{
-
+                
+                b2[j]=licz(a[i]);
+                    a[i]=a[i]/2;
+                }
+            }
+    }
