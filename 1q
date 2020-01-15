@@ -10,3 +10,11 @@ int komu(){
     scanf("%d", &a);
     return a;
 }
+int f1(int a, int s){
+    while(a!=0)
+    {
+        a=a/2;
+        s++;
+    }
+    return s;
+}
