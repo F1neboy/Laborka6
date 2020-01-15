@@ -53,3 +53,5 @@ int b1[w], b2[w];
     printf("\nLiczba 2: ");
      for(int i=0; i<w; i++)
         printf("%d", b2[i]);
+      return 0;
+      }
