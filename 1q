@@ -6,7 +6,7 @@ using namespace std;
 
 int komu(){
     int a;
-    printf("Wprowadź liczbę: \n");
+    printf("Wprowadź lliczbę: \n");
     scanf("%d", &a);
     return a;
 }
