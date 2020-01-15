@@ -1,1 +1,28 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int komu(){
+    int a;
+    printf("Wprowadź liczbę: \n");
+    scanf("%d", &a);
+    return a;
+}
+
+int f1(int a, int s){
+    while(a!=0)
+    {
+        a=a/2;
+        s++;
+    }
+    return s;
+}
+int licz(int a){
+    if(a%2==0)
+        return 0;
+    else
+        return 1;
+}
 
