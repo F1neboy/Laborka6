@@ -33,3 +33,6 @@ int main(){
         if (w<=s[i])
             w=s[i];
     }
+int b1[w], b2[w];
+    for (int i=0; i<2; i++){
+        for (int j=w-1; j>=0;j--){
