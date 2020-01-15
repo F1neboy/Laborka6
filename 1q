@@ -38,6 +38,8 @@ int b1[w], b2[w];
         for (int j=w-1; j>=0;j--){
         if (i==0){
                     b1[j]=licz(a[i]);
+                     printf("%d", b1[i]);
+    printf("\nLiczba 2: ");
                     a[i]=a[i]/2;
                 }
                 else{
